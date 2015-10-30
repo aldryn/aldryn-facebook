@@ -1,5 +1,8 @@
 # -*- coding: utf-8 -*-
-from cmscloud_client import forms
+
+from __future__ import unicode_literals
+
+from aldryn_client import forms
 
 
 class Form(forms.BaseForm):
